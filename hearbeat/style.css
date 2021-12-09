@@ -1,0 +1,120 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #fdf7f2;
+}
+
+header {
+  height: 60px;
+}
+
+header * {
+  display: inline-block;
+}
+
+.logo {
+  position: relative;
+  top: 30px;
+  left: -15px;
+}
+
+header li {
+  display: inline;
+}
+
+nav {
+  margin-left: -50px;
+  margin-right: 289px;
+}
+
+nav li {
+  margin: 0 5px;
+}
+
+nav img {
+  width: 10px;
+  height: 10px;
+  margin-left: 2.5px;
+}
+
+.res {
+  margin-left: 5px;
+}
+
+.login li {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.signup {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+#content {
+  overflow: hidden;
+  height: auto;
+}
+
+.column1 {
+  float: left;
+  width: 400px;
+}
+
+.column1 h1 {
+  margin-top: 250px;
+  font-size: 58px;
+}
+
+.column1 p {
+  width: 320px;
+}
+
+.column1 p {
+  font-size: 16px;
+}
+
+.column2 {
+  float: left;
+  width: 500px;
+}
+
+.column2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer * {
+  display: inline-block;
+}
+
+.button {
+  background-color: #51784f;
+  color: white;
+  padding: 10px 20px;
+}
+
+.sprite1 {
+  position: relative;
+  top: 12px;
+  margin-left: 15px;
+}
+
+.companies {
+  margin-left: 210px;
+}
+
+.companies p {
+  text-transform: uppercase;
+  font-size: 8px;
+  letter-spacing: 0.7em;
+  position: relative;
+  bottom: 2px;
+}
+
+.sprite2 {
+  position: relative;
+  top: 28px;
+  margin-left: 30px;
+}
