@@ -1,3 +1,3 @@
 # web-design
 
-image Dribble to website 
+transform images from Dribble to websites 
