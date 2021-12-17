@@ -1,0 +1,103 @@
+body {
+  background: rgb(234, 230, 229);
+  background: linear-gradient(
+    90deg,
+    rgba(234, 230, 229, 1) 0%,
+    rgba(223, 217, 217, 1) 50%
+  );
+}
+
+#logo span {
+  color: red;
+}
+
+#nav li {
+  margin: auto 20px;
+}
+
+#nav ul :first-child {
+  color: red;
+}
+
+#sign-up li {
+  margin: auto 10px;
+}
+
+#sign-up ul :last-child {
+  background-color: red;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 40px;
+}
+
+.buttons .menu p {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.buttons .table p {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 110px;
+}
+
+.dish {
+  background: rgb(192, 190, 191);
+  background: linear-gradient(
+    135deg,
+    rgba(192, 190, 191, 1) 0%,
+    rgba(232, 230, 231, 1) 50%
+  );
+  border-radius: 40px;
+  padding: 0 10px;
+  margin: auto 5px;
+}
+
+.dish img {
+  position: relative;
+  top: -110px;
+}
+
+.dish p {
+  padding: 0 20px;
+}
+
+.title {
+  margin-top: -110px;
+}
+
+.desc {
+  font-size: smaller;
+}
+
+.price {
+  margin-top: 20%;
+}
+
+.left-arrow {
+  background-color: gray;
+  color: white;
+}
+
+.right-arrow {
+  background-color: red;
+  color: white;
+}
+
+.arrow {
+  border-radius: 50%;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding: 6px 0;
+}
