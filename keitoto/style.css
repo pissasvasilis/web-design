@@ -1,0 +1,176 @@
+.circle-wrap {
+  margin: 0px auto;
+  width: 100px;
+  height: 100px;
+  background: #dae5ff;
+  border-radius: 50%;
+  border: 1px solid #cdcbd0;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.first-circle .mask .fill {
+  clip: rect(0px, 50px, 100px, 0px);
+  background-color: #fc6c8f;
+}
+
+.second-circle .mask .fill {
+  clip: rect(0px, 50px, 100px, 0px);
+  background-color: #32a8fd;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 100px, 100px, 50px);
+}
+
+.first-circle .mask.full,
+.first-circle .circle .fill {
+  transform: rotate(144deg);
+}
+
+.second-circle .mask.full,
+.second-circle .circle .fill {
+  transform: rotate(90deg);
+}
+
+.circle-wrap .inside-circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: white;
+  line-height: 80px;
+  text-align: center;
+  margin-top: 12px;
+  margin-left: 12px;
+  color: black;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+body {
+  background-color: #fc6c8f;
+}
+
+.navbar-text {
+  color: white;
+  font-weight: bold;
+}
+
+.spinner {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px 20px;
+}
+
+.text p:nth-child(2) {
+  font-weight: bold;
+}
+
+.main-bottom {
+  background-color: white;
+}
+
+.main-top {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-bottom {
+  background-color: #f9fcff;
+}
+
+.main-bottom > .row {
+  padding: 0 5%;
+  padding-top: 5%;
+}
+
+.orders,
+.returns {
+  padding-bottom: 10%;
+}
+
+.orders {
+  margin-right: 3%;
+}
+
+.returns {
+  margin-left: 3%;
+}
+
+.orders .col-6,
+.returns .col-6 {
+  padding: 5%;
+}
+
+.orders > .row,
+.returns > .row {
+  background-color: white;
+  border-radius: 6%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.products {
+  margin-top: 5%;
+}
+
+.products p,
+.circles p {
+  color: white;
+}
+
+.circles {
+  padding-bottom: 5%;
+}
+
+.circles > .col > div {
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.circles p {
+  text-align: center;
+}
+
+.orders p:nth-child(2) {
+  color: #32a8fd;
+  font-weight: bold;
+}
+
+.returns p:nth-child(2) {
+  color: #fc6c8f;
+  font-weight: bold;
+}
+
+.graph {
+  margin-top: -10px;
+}
+
+footer {
+  background-color: white;
+}
+
+footer .col > div {
+  text-align: center;
+}
+
+footer svg {
+  color: #becae5;
+  width: 25px;
+  height: 25px;
+}
+
+footer .col:first-child svg {
+  color: #fc6c8f;
+}
